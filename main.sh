@@ -8,6 +8,8 @@ sudo touch /etc/apt/sources.list
 sudo add-apt-repository "deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe"
 sudo add-apt-repository "deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe"
 
-# set up devstack
+sudo apt-get update
 
+# set up devstack
+cd ~
 git clone --depth 1 https://github.com/openstack/devstack.git

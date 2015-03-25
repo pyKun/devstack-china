@@ -18,3 +18,6 @@ cp pip.conf ~/.pip/
 # set up devstack
 cd ~
 git clone --depth 1 https://github.com/openstack-dev/devstack.git
+cp ~/devstack-china/local.conf ~/devstack/
+cd ~/devstack
+./stack.sh

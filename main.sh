@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 # Author: Kun Huang <academicgareth@gmail.com>
 
 # set up ubuntu
@@ -17,4 +17,4 @@ cp pip.conf ~/.pip/
 
 # set up devstack
 cd ~
-git clone --depth 1 https://github.com/openstack/devstack.git
+git clone --depth 1 https://github.com/openstack-dev/devstack.git

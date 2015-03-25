@@ -9,6 +9,8 @@ sudo add-apt-repository "deb http://mirrors.aliyun.com/ubuntu/ trusty main restr
 sudo add-apt-repository "deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe"
 
 sudo apt-get update
+sudo apt-get install vim git tmux python-pip ipython
+sudo pip install -U pip # pip 6.0.0+ version has many important features
 
 # set up devstack
 cd ~

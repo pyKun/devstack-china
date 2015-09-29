@@ -10,8 +10,8 @@ sudo add-apt-repository "deb http://mirrors.aliyun.com/ubuntu/ trusty-updates ma
 
 sudo apt-get update
 sudo apt-get install vim git tmux python-pip ipython
-sudo pip install -U pip # pip 6.0.0+ version has many important features
 cp pip.conf ~/.pip/
+sudo pip install -U pip # pip 6.0.0+ version has many important features
 
 # TODO setup pip caches
 
